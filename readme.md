@@ -1,24 +1,26 @@
-# 🛒 Sistema de Pedidos - Sabor da Feira
+# 📦 sistemas-pedidos-sabor-da-feira
 
-Este é um sistema simples de pedidos em Python + Streamlit. Ele registra pedidos de clientes (produtos, quantidades), salva tudo em Excel, e permite exportar fichas individuais em Word.
-
----
-
-## ✅ Funcionalidades
-
-- Cadastro de pedidos com nome, produtos, quantidades e data/hora.
-- Exportação dos dados:
-  - 📊 Excel (`pedidos.xlsx`)
-  - 📝 CSV
-  - 📄 Word (todos ou ficha individual)
-- Leitura dos arquivos por linha de comando.
+## Descrição  
+Sistema de cadastro, edição e exportação de pedidos para uma feira, desenvolvido em Python com Streamlit. Permite gerenciar pedidos, buscar por cliente, gerar fichas individuais e exportar relatórios em Excel e Word.
 
 ---
 
-## 🚀 Como usar
+## Funcionalidades principais
 
-### 1. Ative seu ambiente virtual (se quiser):
+- Cadastro e edição de pedidos com nome, endereço, produtos e quantidades  
+- Busca dinâmica por nome do cliente  
+- Exportação para Excel (.xlsx)  
+- Geração de fichas individuais em Word (.docx)  
+- Exportação de todos os pedidos em um único arquivo Word  
+- Exclusão de pedidos  
+- Download direto dos arquivos gerados na interface web  
 
-```bash
-python -m venv venv
-venv\Scripts\activate
+---
+
+## Tecnologias usadas
+
+- Python 3.13  
+- Streamlit  
+- Pandas  
+- python-docx  
+- openpyxl  
